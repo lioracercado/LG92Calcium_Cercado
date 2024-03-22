@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd page</title>
+</head>
+<body>
+    
+    <h1> Hi! This is Chris the capybara</h1>
+    <h4> 2nd Grades Exercise in CS 3 Q3</h4>
+
+    <img id="image" src="media/image1.jpg" alt="*" height="500px"> <br>
+
+    <button onclick="changeImage()">Next Image</button>
+
+    <button onclick="previousImage()">Return to previous one</button>
+
+    <script>
+
+        function changeImage() {
+            document.getElementById('image').src = 'media/image2.jpg';
+        }
+    
+        function previousImage() {
+            document.getElementById('image').src = 'media/image1.jpg';
+        }
+
+      </script>
+
+      <style>
+
+        #pekchure{
+            height:100vh;
+            width: 50vw;
+            border: 1.5vh goldenrod;
+            border-radius: 0.5vh;    
+        }
+
+      </style>
+
+</body>
+</html>
